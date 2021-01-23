@@ -1,0 +1,33 @@
+SHOPPING_LIST: [
+  [ "Cakes", "Red Velvet Soft Cream Cake", 1 ],
+  [ "Accessories", "Happy Birthday Candles", 1 ]
+]
+
+DELIVERY:
+  STREET: "1234 Main St"
+  APT: ""
+  CITY: "San Jose"
+  ZIPCODE: "01234"
+  INSTRUCTION: ""
+  CONTACTLESS: true
+  ASAP: false  # Input Delivery time if set to false
+  YEAR: "2021"
+  MONTH: "01"
+  DAY: "31"
+  TIME: "16:00"  # Choose time from 08:45 to 18:15, with 15 mins interval
+
+PAYMENT:
+  FIRSTNAME: "San"
+  LASTNAME: "Zhang"
+  EMAIL: "zhangsan@gmail.com"
+  PHONE: "0123456789"
+  CARD_NUMBER: "4040404040404040"
+  EXPIRATION_YEAR: "2025"
+  EXPIRATION_MONTH: "12"
+  SECURITY_CODE: "123"
+  ZIPCODE: "01234"
+
+SELENIUM:
+  CHROMEDRIVER_PATH: "/home/shuang/Downloads/chromedriver_linux64/chromedriver"
+  ORDER_URL: "https://order.parisbaguette.com/menu/pbca026"
+  HEADLESS: false  # run script without popping up browser window
