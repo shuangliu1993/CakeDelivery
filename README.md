@@ -12,7 +12,7 @@ python setup.py develop
 ```
 
 # Usage
-- Put your information in `put_your_info_here.yml`
+- Put your information in `put_your_info_here.yml`. Remember to update chromedriver path!
 - Start the order by `python main.py`
 - All set, check your email for confirmation letter!
 
